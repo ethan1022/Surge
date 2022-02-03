@@ -1,5 +1,5 @@
-#!name=Ethan測試看看
-#!desc=嘗試改別人的東西
+#!name=ptt imgur 顯示圖片修正
+#!desc=調整ptt imgur無法顯示的問題
 
 [Script]
 ^https://www\.ptt\.cc/bbs/ url script-request-header https://beeeeemo.dev/QX/scripts/ptt_18.js
