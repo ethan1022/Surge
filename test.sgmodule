@@ -1,1 +1,9 @@
+#!name=Ethan測試看看
+#!desc=嘗試改別人的東西
 
+[Script]
+^https://www\.ptt\.cc/bbs/ url script-request-header https://beeeeemo.dev/QX/scripts/ptt_18.js
+^https://www\.ptt\.cc/bbs/ url response-body <head> response-body <head><script defer type="text/javascript" src="//beeeeemo.dev/QX/scripts/ptt_imgur.js"></script>
+
+[MITM]
+hostname = www.ptt.cc
